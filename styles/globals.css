@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+      @apply text-3xl font-bold font-Poppins;
+    }
+    h2 {
+      @apply text-2xl font-bold font-Poppins mb-1 text-gray-800;
+    }
+    h3 {
+        @apply text-xl font-bold font-Poppins mb-1 text-gray-800;
+    }
+    h4 {
+        @apply text-lg font-bold font-Poppins mb-1 text-gray-800;
+    }
+    h5 {
+        @apply text-base font-bold font-Poppins mb-1 text-gray-800;
+    }
+    p {
+        @apply text-lg
+    }
+    ul {
+        @apply list-disc pl-6
+    }
+    li {
+        @apply text-lg
+    }
+}
+
+@layer components {
+    .navLink {
+        @apply font-Poppins font-bold cursor-pointer;
+    }
+}
