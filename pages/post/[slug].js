@@ -62,7 +62,7 @@ function Post({data, preview}) {
   };
 
   return (
-    <article className="max-w-6xl mx-auto px-4">
+    <article className="max-w-6xl mx-auto px-4 mb-10">
       <img
         src={urlFor(post?.mainImage).url()}
         alt={post?.title}
